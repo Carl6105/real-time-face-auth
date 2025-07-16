@@ -83,8 +83,10 @@ python main.py
 - Blink when prompted, press Space, and your face will be recognized.
 
 
+
 🔄 Update Face
 - After successful login, click "🔄 Update Face" to re-capture your face.
+
 
 
 👮 Admin Login
@@ -95,6 +97,7 @@ python main.py
 - See all registered users, logs, and manage them.
 
 
+
 ⚙️ Customization
 - Update styling via templates/style.qss.
 
@@ -103,8 +106,10 @@ python main.py
 - Extend user roles in utils/database.py.
 
 
+
 🤝 Contribution
 Contributions are welcome! Feel free to submit issues or pull requests for improvements.
+
 
 
 📜 License
@@ -113,6 +118,6 @@ MIT License. Feel free to use, modify, and distribute.
 
 📧 Contact
 
-📩 shaikaadil60@gmail.com
+- 📩 shaikaadil60@gmail.com
 
-🌐 https://carl6105.github.io/my-portfolio/
+- 🌐 https://carl6105.github.io/my-portfolio/
