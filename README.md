@@ -68,36 +68,50 @@ python main.py
 ### 🧪 Usage Guide
 
 ➕ Register Face
-Click on "Register a New Face".
+Click on "Register a New Face".4
+
 Enter your name.
+
 Blink once when prompted and press Space to capture.
+
 You’ll see a success message.
+
 
 🔓 Login with Face
 Click on "Log in with your Face".
+
 Blink when prompted, press Space, and your face will be recognized.
+
 
 🔄 Update Face
 After successful login, click "🔄 Update Face" to re-capture your face.
 
+
 👮 Admin Login
--Click "Admin Login".
--Enter the admin username and password.
--See all registered users, logs, and manage them.
+Click "Admin Login".
+
+Enter the admin username and password.
+
+See all registered users, logs, and manage them.
+
 
 ⚙️ Customization
--Update styling via templates/style.qss.
--Modify icons/animations in the assets/ folder.
--Extend user roles in utils/database.py.
+Update styling via templates/style.qss.
+
+Modify icons/animations in the assets/ folder.
+
+Extend user roles in utils/database.py.
+
 
 🤝 Contribution
 Contributions are welcome! Feel free to submit issues or pull requests for improvements.
 
+
 📜 License
 MIT License. Feel free to use, modify, and distribute.
 
-📧 Contact
 
+📧 Contact
 Created by S Mohammed Aadil
 
 📩 shaikaadil60@gmail.com
