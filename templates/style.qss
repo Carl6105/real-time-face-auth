@@ -1,0 +1,125 @@
+/* General Window */
+QMainWindow {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Central Widget and Layout */
+QWidget {
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+/* Title Labels */
+QLabel {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+QLabel#titleLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d8dff;
+}
+
+/* Input Fields */
+QLineEdit {
+    background-color: #2b2b3c;
+    color: #ffffff;
+    border: 1px solid #5a5a89;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #5a5a89;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #7070a0;
+}
+
+QPushButton:pressed {
+    background-color: #4e4e70;
+}
+
+/* Link-style Label (Admin Login) */
+QLabel {
+    font-size: 12px;
+}
+
+QLabel:hover {
+    color: #8d8dff;
+}
+
+/* MessageBox (inherits system theme) */
+QMessageBox QLabel {
+    font-size: 14px;
+    color: #ffffff;
+}
+QMessageBox {
+    background-color: #2a2a3f;
+}
+
+/* Table Widget */
+QTableWidget {
+    background-color: #2b2b3c;
+    color: #ffffff;
+    gridline-color: #4a4a6a;
+    border: 1px solid #5a5a89;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+QHeaderView::section {
+    background-color: #3d3d5c;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #3d3d5c;
+    border: none;
+}
+
+/* Scroll Bars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    border: none;
+    background-color: #2a2a3f;
+    width: 10px;
+    margin: 0px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: #5a5a89;
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::handle:hover {
+    background-color: #7070a0;
+}
+
+/* Input Dialogs */
+QInputDialog {
+    background-color: #2a2a3f;
+    color: #ffffff;
+}
+
+/* Stack Container */
+QStackedWidget {
+    background-color: #1e1e2f;
+}
