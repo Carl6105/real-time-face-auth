@@ -97,6 +97,9 @@ Contributions are welcome! Feel free to submit issues or pull requests for impro
 MIT License. Feel free to use, modify, and distribute.
 
 📧 Contact
+
 Created by S Mohammed Aadil
+
 📩 shaikaadil60@gmail.com
+
 🌐 https://carl6105.github.io/my-portfolio/
