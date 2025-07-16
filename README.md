@@ -42,13 +42,17 @@ A modern, secure face authentication desktop application built with **Python**, 
 
 ```bash
 git clone https://github.com/Carl6105/real-time-face-auth
+```
 
 2. Install Dependencies
+```
 pip install -r requirements.txt
+```
 
 If you don't have a requirements.txt, here are the essential packages:
+```
 pip install pyqt6 opencv-python face_recognition pymongo numpy
-
+```
 💡 Ensure you also have dlib installed (used by face_recognition). This may require Visual Studio Build Tools on Windows or Xcode tools on macOS.
 
 3. Setup MongoDB
